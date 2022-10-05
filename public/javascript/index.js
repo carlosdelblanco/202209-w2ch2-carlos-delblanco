@@ -1,4 +1,4 @@
-import strictEquals from "./strictEquals";
+import strictEquals from "./strictEquals.js";
 
 console.log("1 is equal to 1: " + strictEquals("1", 1));
 console.log("Nan is equal to Nan: " + strictEquals(NaN, NaN));
